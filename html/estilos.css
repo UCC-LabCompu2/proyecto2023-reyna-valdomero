@@ -1,8 +1,12 @@
 *{
-    background-color: #161515;
     color: white;
     margin: 0;
     padding: 0;
+    font-family: 'Quattrocento', serif;
+}
+
+main{
+    background-color: #161515;
 }
 
 img{
@@ -16,6 +20,7 @@ header{
 }
 
 h1{
+    font-family: 'Special Elite', cursive;
     text-align: center;
     background-color: black;
     padding-top: 25px;
@@ -34,16 +39,12 @@ h1{
 .flexa{
     border-radius: 25%;
     border: 3px solid white;
-    background-color: #161515;
+    background-color: black;
     margin: 10px;
     margin-left: 100px;
     margin-right: 100px;
     padding: 7px;
-}
-
-.flexboxitem{
-
-
+    text-decoration: none;
 }
 
 .flexboxitem-main{
@@ -59,4 +60,17 @@ h1{
 
 .descripcion{
     text-align: center;
+}
+
+footer{
+    background-color: black;
+}
+
+.footercontainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footeritem{
+    margin: 2px;
 }
