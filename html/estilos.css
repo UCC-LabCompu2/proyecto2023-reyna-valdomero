@@ -5,8 +5,24 @@
     font-family: 'Quattrocento', serif;
 }
 
+header{
+    position: fixed;
+    width: 100%;
+}
+
+.buzo{
+    width: 100%;
+    height: fit-content;
+}
+
+body{
+    background-color: black;
+}
+
 main{
     background-color: #161515;
+    height: 1500px;
+    padding-top: 150px;
 }
 
 img{
@@ -29,31 +45,63 @@ h1{
 
 .flexboxcontainer{
     display: flex;
-    justify-content: space-between;
+}
+
+.flexboxbuzos{
+    justify-content: center;
+}
+
+.logo{
+    width: 60px;
+    height: 56px;
 }
 
 .flexboxheader{
     background-color: black;
+    margin-left: 35%;
+    margin-bottom: 35px;
+}
+
+.imgcontainer{
+    margin-right: 10px;
+}
+
+.acontainer{
+    border: 3px solid white;
+    border-radius: 5%;
+    height: 50px;
+    display: flex;
 }
 
 .flexa{
-    border-radius: 25%;
-    border: 3px solid white;
-    background-color: black;
     margin: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 7px;
     text-decoration: none;
 }
 
+.foto1{
+    margin-left: 50px;
+}
+
+.foto2{
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
 .flexboxitem-main{
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.descripcionitem{
     width: 268px;
     height: 400px;
-    border: 3px solid black;
     margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
