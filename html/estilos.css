@@ -21,8 +21,8 @@ body{
 
 main{
     background-color: #161515;
-    height: 1500px;
-    padding-top: 150px;
+    height: 1800px;
+    padding-top: 175px;
 }
 
 img{
@@ -36,7 +36,7 @@ header{
 }
 
 h1{
-    font-family: 'Special Elite', cursive;
+    font-family: 'Playfair Display', serif;
     text-align: center;
     background-color: black;
     padding-top: 25px;
@@ -58,7 +58,7 @@ h1{
 
 .flexboxheader{
     background-color: black;
-    margin-left: 35%;
+    margin-left: 30%;
     margin-bottom: 35px;
 }
 
@@ -87,7 +87,7 @@ h1{
 
 .foto2{
     margin-left: 0px;
-    margin-right: 20px;
+    margin-right: 0px;
 }
 
 .flexboxitem-main{
@@ -99,11 +99,15 @@ h1{
 }
 
 .descripcionitem{
-    width: 268px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     margin-top: 50px;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 110px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .descripcion{
@@ -112,13 +116,22 @@ h1{
 
 footer{
     background-color: black;
+    height: 100px;
 }
 
 .footercontainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    padding-top: 40px;
 }
 
 .footeritem{
-    margin: 2px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.instagram{
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
 }
