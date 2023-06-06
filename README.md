@@ -17,3 +17,6 @@ Proyecto Laboratorio de Computacion II - 2023
 - [ ] [Visual Studio Code](https://code.visualstudio.com/) como IDE.
 - [ ] [GitHub](https://github.com/) para control de versiones.
 - [ ] [Google font](https://fonts.google.com/) para buscar e implementar distintas fuentes.
+
+
+-GitHub Page: [Merak Streetwear](https://ucc-labcompu2.github.io/proyecto2023-reyna-valdomero/)
