@@ -1,5 +1,5 @@
 # proyecto2023
-Estructura de Proyecto Lab de Compu II - 2023
+Proyecto Laboratorio de Computacion II - 2023
 
 ## Merak Streetwear Pagina de Ropa
 
@@ -12,7 +12,7 @@ Estructura de Proyecto Lab de Compu II - 2023
 - Se trabajo con html,css,y js para lograr una pagina que cumpla con todos los requisitos del trabajo
 - El proyecto se fue desarrollando de una manera lineal a traves de todas las clases
 
-### Se utilizaron las siguientes herramientas:
+### Herramientas utilizadas:
 - [ ] Sketch en papel.
 - [ ] [Visual Studio Code](https://code.visualstudio.com/) como IDE.
 - [ ] [GitHub](https://github.com/) para control de versiones.
