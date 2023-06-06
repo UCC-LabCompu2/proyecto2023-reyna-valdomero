@@ -1,0 +1,172 @@
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Quattrocento", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+}
+
+.buzo {
+  width: 100%;
+  height: fit-content;
+}
+
+body {
+  background-color: black;
+}
+
+#main {
+  background-color: #161515;
+  height: 1800px;
+  padding-top: 175px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+header {
+  background-color: black;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  background-color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.flexboxcontainer {
+  display: flex;
+}
+
+.flexboxbuzos {
+  justify-content: center;
+}
+
+.logo {
+  width: 60px;
+  height: 56px;
+}
+
+.flexboxheader {
+  background-color: black;
+  margin-left: 30%;
+  margin-bottom: 35px;
+}
+
+.imgcontainer {
+  margin-right: 10px;
+}
+
+.acontainer {
+  border: 3px solid white;
+  border-radius: 5%;
+  height: 50px;
+  display: flex;
+}
+
+.flexa {
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 7px;
+  text-decoration: none;
+}
+
+.foto1 {
+  margin-left: 50px;
+}
+
+.foto2 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.flexboxitem-main {
+  width: 400px;
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.descripcionitem {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-top: 110px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.descripcion {
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  height: 100px;
+}
+
+.footercontainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.footeritem {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.instagram {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+input {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: black;
+}
+
+canvas {
+  width: 100vw;
+  height: 400px;
+}
+
+#resultado {
+  color: #161515;
+}
+
+#vuelta {
+  text-align: center;
+}
+
+#main2 {
+  background-color: #161515;
+  height: 45vw;
+}
+
+#footer2 {
+  background-color: black;
+  height: 50px;
+}
