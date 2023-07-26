@@ -174,3 +174,8 @@ canvas {
 button{
   color: black;
 }
+
+button:hover{
+  color: white;
+  background-color: black;
+}
