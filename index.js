@@ -4,26 +4,38 @@ const txtResultado = document.getElementById("resultado");
 const canvas = document.getElementById("miCanvas");
 const contexto = canvas.getContext("2d");
 
-let animacionEnMarcha = false; //VARIABLE QUE FUNCIONA PARA SABER SI ES LA PRIMERA VEZ QUE SE ANIMA
+let animacionEnMarcha = false; // VARIABLE QUE FUNCIONA PARA SABER SI ES LA PRIMERA VEZ QUE SE ANIMA
+let intervaloAnimacion; // Variable para almacenar el intervalo de la animación
+
 botonCalcular.addEventListener("click", validar);
 
 function validar() {
-  const medida = parseInt(txtMedida.value); //PASA DE STRING A INT
+  const medida = parseInt(txtMedida.value); // Pasa de STRING a INT
   if (medida < 80 || medida > 125) {
     alert("Los datos ingresados son incorrectos");
+    detenerAnimacion();
   } else if (medida >= 80 && medida <= 91) {
-    calcular(1); //SWITCH 1
+    calcular(1); // SWITCH 1
   } else if (medida > 91 && medida <= 99) {
-    calcular(2); //SWITCH 2
+    calcular(2); // SWITCH 2
   } else if (medida > 99 && medida <= 107) {
-    calcular(3); //SWITCH 3
+    calcular(3); // SWITCH 3
   } else if (medida > 107 && medida <= 115) {
-    calcular(4); //SWITCH 4
+    calcular(4); // SWITCH 4
   } else if (medida > 115 && medida <= 125) {
-    calcular(5); //SWITCH 5
+    calcular(5); // SWITCH 5
   } else {
     alert("Por favor rellene el campo vacío con una medida entre 80 y 125cm");
+    detenerAnimacion();
   }
+}
+
+function detenerAnimacion() {
+  animacionEnMarcha = false; // Marca que la animación está detenida
+  clearInterval(intervaloAnimacion); // Detiene el intervalo de animación
+  contexto.clearRect(0, 0, canvas.width, canvas.height); // Limpia el canvas
+  xPos = 0; // Reinicia la posición horizontal
+  txtMedida.value = ""; // Blanquea el valor del input
 }
 
 function calcular(operacion) {
@@ -75,4 +87,8 @@ function animar() {
   }
 
   intervaloAnimacion = setInterval(dibujar, 1000 / 60); //ESTA FUNCION DETERMINA CUANTAS VECES SE ACTUALIZA EL CANVAS POR SEGUNDO
+}
+
+function volver() {
+  window.location.href = "./index.html";
 }
